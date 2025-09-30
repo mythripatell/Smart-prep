@@ -1,97 +1,68 @@
-Smart Prep AI – AI Mock Interview Agent
-Smart Prep AI is a full-stack web application that uses artificial intelligence to conduct realistic mock interviews for job seekers. Built with Vite, React.js, HTML, and CSS, this application simulates technical and behavioral interviews, provides instant feedback, and helps candidates improve their performance with personalized practice sessions.
+# 🤖 Smart Prep AI – AI Mock Interview Agent
 
-Features
-AI-driven technical and behavioral interview questions tailored to the user's profile.
+**Smart Prep AI** is a full-stack web application that leverages **Artificial Intelligence** to conduct realistic mock interviews for job seekers.  
+Built with **Vite, React.js, HTML, CSS, Node.js, Firebase, and Gemini API**, it simulates both **technical** and **behavioral interviews**, provides **instant feedback**, and helps candidates sharpen their skills with **personalized practice sessions**.
 
-Real-time feedback using AI APIs for improvement tips.
+---
 
-Secure user authentication and registration.
+## ✨ Features
 
-Personalized and job-specific interview sessions, with progress tracking.
+- 🧠 **AI-driven interviews** – Technical & behavioral questions tailored to your profile.  
+- ⚡ **Real-time feedback** – Get instant tips and suggestions from AI.  
+- 🔐 **Secure authentication** – Powered by **Clerk** for user login & registration.  
+- 🎯 **Personalized practice** – Job-specific sessions with progress tracking.  
+- 📊 **Analytics & history** – Review past interviews and monitor improvement.  
+- 📱 **Responsive UI** – Optimized for both desktop & mobile.  
 
-Data persistence for user history and session analytics.
+---
 
-Responsive user interface optimized for desktop and mobile.
+## 🛠 Tech Stack
 
-Tech Stack
-Frontend: Vite, React.js, HTML, CSS
+**Frontend:** Vite, React.js, HTML, CSS  
+**Backend:** Node.js  
+**Database:** Firebase  
+**Authentication:** Clerk  
+**AI Integration:** Gemini API  
+**Package Manager:** pnpm  
 
-Backend: Node.js
+---
 
-Database:  Firebase 
+## 🚀 Getting Started
 
-Authentication: Clerk 
+### ✅ Prerequisites
+- [Node.js](https://nodejs.org/) (latest LTS recommended)  
+- [pnpm](https://pnpm.io/) → install via:  
+  ```bash
+  pnpm install -g pnpm
+  Firebase project & API keys (for database)
+⚙️ Installation
 
-AI Integration: Gemini API 
-
-Package Manager: pnpm
-
-Getting Started
-Prerequisites
-Node.js (latest LTS recommended)
-
-pnpm (install with npm install -g pnpm)
-
-(If applicable) MongoDB Atlas/Firebase project, necessary API keys
-
-Installation
-Clone the repository:
-
-text
-git clone https://github.com/your-username/smart-prep-ai.git
+Clone the repository:git clone https://github.com/your-username/smart-prep-ai.git
 cd smart-prep-ai
-Install dependencies:
 
-text
-pnpm install
+Install dependencies:pnpm install
 Set up environment variables:
+Create a .env file in the project root: VITE_GEMINI_API_KEY=your_api_key
 
-Create a .env file in the project root.
+Run the application (development mode): pnpm run dev
 
-Example:
 
-text
-VITE_GEMINI_API_KEY=your_key
-Run the application in development mode:
+🎮 Usage
 
-text
-pnpm run dev
-For full-stack setup, run the backend in a separate terminal as per /server/README.md or backend folder instructions.
-
-Usage
 Register or log in to your account.
 
-Start a mock interview by selecting job role and difficulty.
+Select a job role and difficulty level.
 
 Answer AI-generated questions in real time.
 
-Review instant feedback and suggestions for improvement.
+Get instant feedback & tips.
 
-Track your progress and revisit past sessions from your profile.
+Track your progress and revisit past sessions anytime.
 
-Folder Structure
-text
-/smart-prep-ai
-|-- /src
-|   |-- /components
-|   |-- /pages
-|   |-- /assets
-|-- /server (backend, if included)
-|-- package.json
-|-- pnpm-lock.yaml
-|-- vite.config.js
-|-- README.md
-Contributing
-Fork this repository
 
-Create a new branch (git checkout -b feature/feature-name)
 
-Make your changes and commit (git commit -m 'Add some feature')
+📜 License
 
-Push to the branch (git push origin feature/feature-name)
-
-Open a pull request for review
-
-License
-MIT License. Please see the LICENSE file.
+This project is licensed under the MIT License.
+See the LICENSE
+ file for details
